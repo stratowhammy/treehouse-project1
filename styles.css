@@ -16,7 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   /*background: #f7f5f0;*/
-  background: #EAA77D;
+  background: #fce9de;
 }
 /* Link Styles */
 
@@ -37,6 +37,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 99;
 }
 .nav {
   display: flex;
@@ -171,6 +172,9 @@ a.twitter {
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+a.facebook {
+  background-image: url(images/facebook.svg);
+}
 a.github {
   background-image: url(images/github.svg);
 }
@@ -185,8 +189,12 @@ a.social:hover {
   width: 400px;
   height: 100px;
   border-radius: 15px;
-  border: 3px solid white;
-  
+  opacity: .9;
+  z-index: 0;
+}
+
+.parkimg:hover {
+  opacity: 1;
 }
 
 /* Styles for larger screens */
