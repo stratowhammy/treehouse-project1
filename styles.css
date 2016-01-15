@@ -2,20 +2,18 @@
 * { 
   box-sizing: border-box;
 }
-wrapper {
+.wrapper {
   min-height: 100%;
   height: auto;
   height: 100%;
-  margin: 0 auto -150px;
+
 }  
 body {
   overflow: auto;
   margin: 0;
-  padding: 0 0 -150px 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  /*background: #f7f5f0;*/
   background: #fce9de;
 }
 /* Link Styles */
@@ -68,7 +66,7 @@ header {
   background: url('images/park-image-small.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 header {
   line-height: 1.5;
@@ -94,7 +92,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #efefef;
-  color: fff;
+  color: #000;
 }
 .card {
   margin: 30px;
@@ -131,9 +129,7 @@ ul.skills {
 
 footer {
   width: 100%;
-  /*min-height: 30px;*/
   height: 150px;
-  /*margin-top: -150px;*/
   padding: 20px 0 40px 20px;
   background-color: #000;
   /*clear:both;*/
@@ -186,8 +182,8 @@ a.social:hover {
 }
 
 .parkimg {
-  width: 400px;
-  height: 100px;
+  width: 250px;
+  height: 62.5px;
   border-radius: 15px;
   opacity: .9;
   z-index: 0;
@@ -230,8 +226,16 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     /*max-width: 1200px;*/
-    margin: 40px auto -150px;
+    margin: 40px auto 0px;
   }
+
+.parkimg {
+  width: 400px;
+  height: 100px;
+  border-radius: 15px;
+  opacity: .9;
+  z-index: 0;
+}
 
 }
 
