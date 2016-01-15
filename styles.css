@@ -65,8 +65,8 @@ header {
   text-align: center;
   background: url('images/park-image-small.jpg') no-repeat top center ;
   background-size: cover;
-  overflow: hidden;
-  padding: 60px 0;
+  /*overflow: hidden;*/
+  padding: 60px 0 60px;
 }
 header {
   line-height: 1.5;
