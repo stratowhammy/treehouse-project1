@@ -231,12 +231,23 @@ a.social:hover {
   }
 
 .parkimg {
-  width: 400px;
-  height: 100px;
+  max-width: 100%;
+  height: 60px;
+  min-height: 80%;
   border-radius: 15px;
   opacity: .9;
   z-index: 0;
 }
 
+}
+
+@media screen and (max-width: 420px) {
+  .parkimg {
+  max-width: 100%;
+  height: 60px;
+  border-radius: 15px;
+  opacity: .9;
+  z-index: 0;
+  
 }
 
