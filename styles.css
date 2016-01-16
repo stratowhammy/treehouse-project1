@@ -93,6 +93,7 @@ header .profile-image:hover {
 .location {
   background-color: #efefef;
   color: #000;
+  margin-bottom: 20px;
 }
 .card {
   margin: 30px;
